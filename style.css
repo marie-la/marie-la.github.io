@@ -1,0 +1,104 @@
+html {
+	min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+	height:100%; 
+	background-color: #e5e5e5; /* #E0DDF0 */ 
+    margin: 0;
+}
+h1 {
+	margin:0;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 30px;
+	padding-top: 110px;
+	font-size: 50px;
+	color: white;
+	-webkit-text-stroke: 2px black;
+}
+
+p {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 18px;
+	margin: 15px;
+	color: black;	
+}
+
+
+h2 	{
+	margin:15px;
+	font-size: 20px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: white;
+}
+
+h3 	{
+	margin:15px;
+	font-size: 20px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: black;
+}
+
+.content {
+	vertical-align: right
+
+}
+
+#header {
+	background-image: url("wave.jpg");
+	background-size:cover;
+	height: 300px;
+	top:-50px;
+	text-align: center;
+	position: relative;	
+}
+
+#project {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px;
+	min-height: 100px;	
+	position:relative;
+	top:-50px;	
+	background-color: white;/* #060814 #EC6841 */
+}
+
+#buttonrow {
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#buttonrow div{
+	display: inline-block;
+	margin: 0;
+}
+
+.buttonspacer{
+	width: 30%;
+	height: 100%;
+	background: black;
+	margin: 0px;
+}
+
+.button {
+	background: black;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	top:-20;
+	position:relative;
+}
+#buttontext	{
+	color: white;
+	position:absolute;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  	display: block; 
+	margin: auto;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+}
