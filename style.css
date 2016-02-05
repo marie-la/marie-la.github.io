@@ -48,6 +48,7 @@ h3 	{
 #header {
 	background-image: url("wave.jpg");
 	background-size:cover;
+	background-position: center;
 	height: 300px;
 	top:-50px;
 	text-align: center;
