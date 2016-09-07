@@ -28,8 +28,12 @@
 </div>
 
 <div id="project">
-    <p>When faced with vast sets of data in forms our eyes and ears cannot readily interpret, we forgo the abilities we depend on to learn about the world. One of my goals is to develop new senses: using data science and machine learning to turn numbers into new knowledge and building a statistical intuition.</p>
-   	<p>Practically speaking, this means I look at datasets and try things. </p>
+	<h3>Voronoi Polygons - Summer 2016</h3>
+	<img src="aertime1.png" style="max-width:800px; width:80%; display:block; margin:auto;">
+    <p>Voronoi cells are neat: given a series of points, you can divide the space into cells around each point where everything in that cell is closest to that point and no other.</p>
+    <p>Given a picture, I generate centroid points either in a uniform distribution or a fat-tailed gaussian distribution (centered around a focal point that I specify), find which cell each pixel belongs to (an O(num pixels) operation) and color them according to the average color of pixels in that cell.</p>
+    <p>Finding faster algorithms was challenging. I couldn't figure out why k-d trees were so much slower than simple 1d binary search, for one. In the end the algorithm was expanding a circle around each centroid, and marking the pixels if they haven't been marked before.</p>
+	<img src="voronoi_12840.png" style="max-width:800px; width:80%; display:block; margin:auto;">
 </div>
 
 <div id="project">
