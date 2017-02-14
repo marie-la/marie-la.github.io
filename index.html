@@ -28,6 +28,20 @@
 </div>
 
 <div id="project">
+	<h3>Generals.io Bot - Winter 2017</h3>
+    <img src="generals.gif" style="max-width:500px; width:80%; display:block; margin:auto;">
+    <p>My goal was to make the best bot with the least complexity. As is, it is ranked #64 on the bot server, though this says more about how unpopulated the bot server is than how good my bot is. It uses a 3 move lookahead with crude pruning (only checks top ten options at each iteration) and a simple scoring mechanism. Watching simplicity lead to complex behavior is very aesthetically satisfying.</p>
+    <ol> Score increases for:
+      <li>If the tile it's moving to is empty</li>
+      <li>If the tile it's moving to is a city, an enemy territory, or enemy general</li>
+      <li>The bigger the force moving is, the more points (sqrt)</li>
+      <li>A random number between 0 and 1 is added to each score</li>
+    </ol>
+    <p>Some issues: Confused by mazes of walls. No defense whatsoever. Watch a replay here: <a href="http://bot.generals.io/replays/rlcZjAyFg">(link)</a> (My bot is Marbot)</p>
+    <p>This was done in js, using the api at <a href="http://dev.generals.io/api#game_start">dev.generals.io</a>. I made a viewport that updates live so I can watch my bot play in real time. This was done using react. At some point I might download the 200,000 replays and try to train an agent to play.</p>
+</div>
+
+<div id="project">
 	<h3>Scraping Color Schemes - Fall 2016</h3>
     <img src="colorscheme_city_small.bmp" style="max-width:800px; width:80%; display:block; margin:auto;">
     <p>To practice ML, I'm scraping hex colors from websites to make a large dataset of color schemes. Currently, I have around 10,000, and will shoot for around 20,000.</p>
